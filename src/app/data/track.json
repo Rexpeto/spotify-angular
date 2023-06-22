@@ -1,0 +1,20 @@
+{
+    "data": [
+        {
+            "_id": 1,
+            "name": "Moonlight",
+            "album": "?",
+            "cover": "https://e-cdn-images.dzcdn.net/images/cover/9b6da786cd3ca8b286a04186b3c9079c/264x264-000000-80-0-0.jpg",
+            "artist": {
+                "name": "xxxtentacion",
+                "nickname": "XXXTENTACION",
+                "nationality": "US"
+            },
+            "duration": {
+                "start": 0,
+                "end": 215
+            },
+            "url": "http://192.168.1.107:4000/track.mp3"
+        }
+    ]
+}
