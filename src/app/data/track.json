@@ -1,20 +1,68 @@
 {
-    "data": [
-        {
-            "_id": 1,
-            "name": "Moonlight",
-            "album": "?",
-            "cover": "https://e-cdn-images.dzcdn.net/images/cover/9b6da786cd3ca8b286a04186b3c9079c/264x264-000000-80-0-0.jpg",
-            "artist": {
-                "name": "xxxtentacion",
-                "nickname": "XXXTENTACION",
-                "nationality": "US"
-            },
-            "duration": {
-                "start": 0,
-                "end": 215
-            },
-            "url": "http://192.168.1.107:4000/track.mp3"
-        }
-    ]
+  "data": [
+    {
+      "_id": 1,
+      "name": "Story Of My Life",
+      "album": "Story Of My Life",
+      "cover": "https://e-cdn-images.dzcdn.net/images/cover/1a678eb8e716c884b12bde087743a609/264x264-000000-80-0-0.jpg",
+      "artist": {
+        "name": "Illenium",
+        "nickname": "ILLENIUM",
+        "nationality": "US"
+      },
+      "duration": {
+        "start": 0,
+        "end": 215
+      },
+      "url": "http://192.168.1.107:4000/track.mp3"
+    },
+    {
+      "_id": 2,
+      "name": "Carme to Rage",
+      "album": "Thrones of Blood",
+      "cover": "https://e-cdn-images.dzcdn.net/images/cover/5738ae1233fb480e37bd86b6eaf92633/264x264-000000-80-0-0.jpg",
+      "artist": {
+        "name": "Sullivan King",
+        "nickname": "Sullivan King",
+        "nationality": "US"
+      },
+      "duration": {
+        "start": 0,
+        "end": 215
+      },
+      "url": "http://192.168.1.107:4000/track.mp3"
+    },
+    {
+      "_id": 3,
+      "name": "Rumble",
+      "album": "Quest For Fire",
+      "cover": "https://e-cdn-images.dzcdn.net/images/cover/0c9feaff1f4b1b6855a3fb78fcc8ff44/264x264-000000-80-0-0.jpg",
+      "artist": {
+        "name": "Skrillex",
+        "nickname": "Skrillex",
+        "nationality": "US"
+      },
+      "duration": {
+        "start": 0,
+        "end": 215
+      },
+      "url": "http://192.168.1.107:4000/track.mp3"
+    },
+    {
+      "_id": 4,
+      "name": "Falling (Mega VIP)",
+      "album": "World Of Wonk VIP EP",
+      "cover": "https://e-cdn-images.dzcdn.net/images/cover/59f127d5863bf61d9f1af2bfcfe5d24b/264x264-000000-80-0-0.jpg",
+      "artist": {
+        "name": "Monxx",
+        "nickname": "Monxx",
+        "nationality": "US"
+      },
+      "duration": {
+        "start": 0,
+        "end": 215
+      },
+      "url": "http://192.168.1.107:4000/track.mp3"
+    }
+  ]
 }
