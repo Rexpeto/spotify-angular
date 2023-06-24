@@ -8,5 +8,16 @@ import { TrackModel } from '@core/models/tracks.model';
 })
 export class CardPrayerComponent {
   @Input() mode: 'small' | 'big' = 'small';
-  @Input() track!: TrackModel;
+  @Input() track: TrackModel = {
+    _id: '',
+    name: '',
+    artist: {
+      name: '',
+      nickname: '',
+      nationality: '',
+    },
+    album: '',
+    cover: '',
+    url: '',
+  };
 }
