@@ -13,7 +13,7 @@
 }
 
 .card-player .cover {
-  width: 4rem;
+  width: 5.8rem;
   height: 100%;
   object-fit: cover;
   border-top-left-radius: var(--border-radius-1);
