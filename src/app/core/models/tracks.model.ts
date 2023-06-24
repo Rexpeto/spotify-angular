@@ -1,7 +1,7 @@
 import { ArtistModel } from './artist.model';
 
 export interface TrackModel {
-  _id: number | number;
+  _id: string | number;
   name: string;
   album: string;
   cover: string;
