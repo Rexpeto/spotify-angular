@@ -13,7 +13,11 @@
       </button>
     </div>
     <div class="separator"></div>
-    <form class="login-auth-form">
+    <form
+      class="login-auth-form"
+      (ngSubmit)="sendLogin()"
+      [formGroup]="formLogin"
+    >
       <div class="form-group">
         <label for="email">Dirección de correo o nombre de usuario</label>
         <input
@@ -37,7 +41,7 @@
       </div>
       <div *ngIf="false">Ocurrio un error con tu email o password</div>
       <div class="form-action">
-        <button [disabled]="false" class="login social-btn">
+        <button [disabled]="formLogin.invalid" class="login social-btn">
           Iniciar sesión
         </button>
       </div>
