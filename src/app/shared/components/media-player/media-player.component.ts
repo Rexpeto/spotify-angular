@@ -20,6 +20,10 @@ export class MediaPlayerComponent implements OnInit, OnDestroy {
       nickname: 'xxxtentacion',
       nationality: 'US',
     },
+    duration: {
+      start: 0,
+      end: 220,
+    },
     url: 'http://localhost:4000/x.mp3',
   };
 

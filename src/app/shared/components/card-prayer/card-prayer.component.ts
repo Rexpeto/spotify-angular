@@ -21,6 +21,10 @@ export class CardPrayerComponent {
     },
     album: '',
     cover: '',
+    duration: {
+      start: 0,
+      end: 222,
+    },
     url: '',
   };
 
