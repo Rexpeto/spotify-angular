@@ -20,10 +20,6 @@ const routes: Routes = [
         (m) => m.FavoritesModule
       ),
   },
-  {
-    path: '**',
-    redirectTo: '/tracks',
-  },
 ];
 
 @NgModule({
