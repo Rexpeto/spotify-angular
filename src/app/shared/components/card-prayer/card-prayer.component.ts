@@ -29,6 +29,6 @@ export class CardPrayerComponent {
   };
 
   sendPlay(track: TrackModel) {
-    this._multimediaService.callback.emit(track);
+    this._multimediaService.trackInfo$.next(track);
   }
 }
