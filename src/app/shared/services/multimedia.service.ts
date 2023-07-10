@@ -101,4 +101,10 @@ export class MultimediaService {
     const porcentage = (currentTime * 100) / duration;
     this.playerPorcentage$.next(porcentage);
   }
+
+  public seekAudio(porcentage: number) {
+    const { duration } = this.audio;
+    const porcentageToSecond = (porcentage * duration) / 100;
+    this.audio.currentTime = porcentageToSecond;
+  }
 }
