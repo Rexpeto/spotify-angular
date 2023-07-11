@@ -22,4 +22,42 @@ describe('LoginPageComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  //* Invalid data form
+  it('Invalid form', () => {
+    //? Arrange
+    const mockCredentials = {
+      email: 'test.com',
+      password: 'credentialsTestInvalid',
+    };
+
+    const emailForm: any = component.formLogin.get('email');
+    const passwordForm: any = component.formLogin.get('password');
+
+    //? Act
+    emailForm.setValue(mockCredentials.email);
+    passwordForm.setValue(mockCredentials.password);
+
+    //? Assert
+    expect(component.formLogin.invalid).toEqual(true);
+  });
+
+  //* Valid data form
+  it('Valid form', () => {
+    //? Arrage
+    const mockCredentials = {
+      email: 'test@test.com',
+      password: 'prueba123',
+    };
+
+    const emailForm: any = component.formLogin.get('email');
+    const passwordForm: any = component.formLogin.get('password');
+
+    //? Act
+    emailForm.setValue(mockCredentials.email);
+    passwordForm.setValue(mockCredentials.password);
+
+    //? Assert
+    expect(component.formLogin.invalid).toEqual(false);
+  });
 });
